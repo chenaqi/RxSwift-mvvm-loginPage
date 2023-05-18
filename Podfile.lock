@@ -1,0 +1,43 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - Toast-Swift (5.0.1)
+  - UILabelImageText (0.1.2)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - Toast-Swift
+  - UILabelImageText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Toast-Swift
+    - UILabelImageText
+  trunk:
+    - MBProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  UILabelImageText: 8397324521eb5b2f6fae88ac827c7d868217b7fe
+
+PODFILE CHECKSUM: b12de3089686e12a8c2f9f62c46fa195ac8ae113
+
+COCOAPODS: 1.12.1
