@@ -120,7 +120,8 @@ extension JZLoginViewController {
         guard let phone = phoneTextField.text, let sms = smsCodeTextField.text else {return}
         let hud = MBProgressHUD.showAdded(to: view, animated: true)
         DispatchQueue.main.asyncAfter(deadline: .now()+2) {
-            hud.label.text = phone + "\n" + sms + "\n"  + "登录成功"
+            print("phone:" + phone + " sms:" + sms)
+            hud.label.text = "登录成功"
             hud.hide(animated: true, afterDelay: 1)
         }
     }
